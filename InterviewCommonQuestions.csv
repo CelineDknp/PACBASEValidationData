@@ -1,0 +1,29 @@
+Common questions (Domain):,,Comments
+"SubjectA: ,""""""What does this tool take as input?"""""",Both SubjectA and SubjectB started (very early in the interviews) by asking about the exact level of the input"
+"SubjectB: ,""""""So this is from the database, at the patch level?"""""","
+,,
+"SubjectA: ,""""""Can you handle rules that are repeated in the migration process?"""""",Both SubjectA and SubjectB stuggled with the concept of having repeated nodes"
+SubjectB: ,Can a node be repeated in the graph?,
+,,
+Tool meaning:,,
+SubjectA: ,Can I now better understand the graphs?,Both confirmed with me that they understood correctly the graphs
+"SubjectB:,""""""An arrow means this patch was executed, then that one?"""""","
+,,
+SubjectA:,What could be contained in that gray node?,Orange an gray node seems to be the hardest to master
+,What was the meaning of orange again?,
+"SubjectB:,""""""Can you clarify the meaning of the orange and the gray nodes?"""""","
+,,
+Tool use:,,
+"SubjectA:,I need to read that node title better,""Here, the action taken is dragging nodes around. It is the most taken action overall"""
+SubjectB:,How can I arrange this in a way that suits me better?,
+,,
+SubjectA:,How can I see better this specific part of the graph?,The action taken for both those question is to zoom on the graph. It is the second most taken action overall
+SubjectB:,How can I see better?,
+,,
+SubjectA:,How could I analyze this new graph?,Both SubjectA and SubjectB needed to navigate trough the graph quite a bit as well. SubjectA choose to drag the image and SubjectB to use the scroll bar at the bottom
+SubjectB:,How do I navigate this?,
+,,
+Differences:,,
+"SubjectA did open the cheat sheet, SubjectB didn't (at least not during the ""main part"" of the interview, only when he fiddled with it),,"
+"Overall, SubjectB was more of a ""what does this do"" guy (more yellow), trying out all the buttons he could see, while SubjectA explored less and asked more (more orange),,"
+SubjectA and SubjectB had very different, sometimes contradicting ideas for future work (and for applications,,

@@ -1,0 +1,60 @@
+Questions regarding the visualisation itself:
+
+1. What do you see ?
+	- What does each color means ?
+	- What are the circles ?
+	- What are the arrows ?
+	- What does the thickness of the arrow mean ?
+	- What are the grey circles ?
+
+2. Observed patterns:
+	- Do you see patterns or outliers in the graphs ? If so, point them out.
+	- Can you find a meaning for at least one of the pattern ? Explain it.
+
+3. Informations:
+	- Other than the patterns, do you find the information given by the graph interesting ? Does it seem correct to you ?
+
+4. Old version:
+	- Do you think this conveys the same information as what you saw previously ?
+	- Could you find the information we talked about earlier (patterns, names of nodes, changes in probabilities) in this version of the graphs ? Can you estimate how much longer (or how much faster) it would take you to find that same information on this longer graph.
+	- Are there things you could find on this (old version) of the graph that are easier to find / understand / interpret than on the earlier more compact graphs?
+	- Do you see an improvement from this to the more compact graphs ?
+
+5: Overall and features:
+	- Do you think this visualisation is a clear representation of changes in a process ?
+	- Would you make any changes to make it clearer ? Wich ones ?
+	- Is there a feature that you would really want to add to the compact visualisation ?
+		- Content-wise 
+		- Regarding the visual aspect
+		- Regarding the dynamics of the visualisation
+		- Regarding how to interact with the visualisation
+
+Questions regarding the visualisation in the context of performing a redelivery
+6. Observed patterns, continued
+	- Do the patterns you see make sense with your "migration expertise" ?
+	- Did you expect some patterns that are not present here ?
+
+7. Informations, continued
+	- Other than the patterns, do you find the information given by the graph useful in your work ?
+	- Could you get the same information without the visualisation ? If so, would it be difficult ? Describe how you would go about it.
+	- Does the visualisation show information that you wouldn't have thought about getting ?
+	- Could the information from the visualisation (patterns included) be useful in your work in regards to:
+		- Understanding (would it make understanding what changed easier) ?
+		- Efficency (would make some of the steps faster/easier) ?
+		- Communication (would make communication to the client easier) ?
+		- Other ?
+
+8. Features, continued
+	- Regarding your redelivery work specifically, is there a feature that you would really want to add to the compact visualisation ?
+		- Content-wise 
+		- Regarding the visual aspect
+		- Regarding the dynamics of the visualisation
+		- Regarding how to interact with the visualisation
+	- Are there changes you would make to what is currently there ? Why ?
+	- Would adding the features you thought about change your answers to the question about this visualisation making your work more efficient, the communication or the understanding easier ? If so, how ? 
+	- Could this visualisation be useful in another context than the one of a redelivery ? How ?
+
+
+6 To finish off:
+	- What do you like/dislike about this visualisation ? Both in the context of a redelivery or in general.
+	- Anything else you'd like to add ?

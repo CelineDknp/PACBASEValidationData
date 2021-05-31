@@ -1,0 +1,107 @@
+SubjectA's interview
+
+
+Questions regarding the visualisation itself:
+
+1. What do you see ?
+At first, with having looked 2 seconds at the cheat sheet and not remembering much of it, SubjectA didn't quite know hot to interpret the graphs. When prompted, he looked at the manual. His first instinct was to ask we to clarify the exact input used, which is the database (multiple "layers" exist in those migration projects, with different granularity in details. The database is the "patch layer", the most detailed, one patch being applied to one specific location in the code). With that info, he looked only at the first two images (explaning what is a node/a link) and the decription of the meaning of colors. He then explained to me what he understood in terms of "So, in V1 we did rule X then rule Y, and in V2 rule Y is no longer triggered so it is in red and removed, and inverted logic for geen/added". I replied that this interpretation is correct, and he moved right away to checking on the example graphs that he was looking right before, applying the logic. He understood the meaning of the gray fused node without the need of the manual, and had a general look-over one graph without issues. He didn't notice however, that he could drag and drop the nodes, so I pointed this option out. When he understood, he started moving a few nodes as he was analyzing graphs. He prefered scrolling using his mouse to zooming/dezooming.
+
+He then asked about if we could handle the fact that rules can repeat themselves throughout the process, probably because he (as Kim) expected the rules to appear only once in the graph. I explained a bit about what an FSA tries to do, and that yes, a node could appear multiple times on a graph. He seemed satisfied with the explanation and moved on. Later, when we encountered a "repeated node", he checked with me that it was normal, I confirmed, and he gave ma a quick analysis of why it probably happened: a rule didn't happen a bit earlier, meaning that it was actually triggered later, resulting in it being removed, then added further on the graph. 
+
+The analysis of the orange color came later in the disussion, and SubjectA went naturally back to the manual. The very scientific explanation of "probabilites" seemed to not satisfy him that much, so I rephrased it as "the fact that some rules happens more or less often, but still in the same general order", an that seemed to make sense to him. He didn't focus much of his analysis on those information, nor did we talk about the line thickness, because he didn't really need to look at the numbers to come up with an explanation.
+
+2. Observed patterns:
+	- Do you see patterns or outliers in the graphs ? If so, point them out.
+	- Can you find a meaning for at least one of the pattern ? Explain it.
+	While asked directy about "patterns" as a general concept, SubjectA had trouble identifying them or going back to a specific part if the graph and pointing out to me "this is a pattern". However, while looking at the graph and observing what I would call a "pattern", he naturally identified it as at least a "group" or "entity", and explained whitout being prompted what it could mean in term of the migration, for example pointing the probable cause of a long chain of removed nodes as the deletion of a parapgraph in the second version of the input.
+
+3. Informations:
+	- Other than the patterns, do you find the information given by the graph interesting ? Does it seem correct to you ?
+	After the initial look-over, without being asked, SubjectA directly said that he found the information there very interesting, and was mostly excited by the concept of such graphs being able to help him tell *when*, during the migration, things started to change or started to be the same again (most graphs have a fused node at the start and one at the end). He found that some of the very big clusers of changes are probably too complex to be analyzed by hand (he pointed a big cluster of adds and removes concerning GOTOs), and we discussed a bit about that being more correlated to Raincode's rules (there is probably around 20 individual GOTO-related rules that are very specific, creating a kind of "waterfall change effect" in those cases). After some more analysis, he did agree with my interpretation and interpreted all other clusters like this one as "okay that's GOTO changes".
+	Later in the conversation, he did confirm that everything seems correct to him.
+
+4. Old version:
+	- Do you think this conveys the same information as what you saw previously ? 
+	"Mmmmh... Yes ? Yes, it is the same plus all of the steps that didn't change"
+
+	- Could you find the information we talked about earlier (patterns, names of nodes, changes in probabilities) in this version of the graphs ? Can you estimate how much longer (or how much faster) it would take you to find that same information on this longer graph. 
+	"Yes, I could find them, but I don't really care about all the white nodes, they don't give me any interesting information". Yes, the collapsed graph make finding infos faster.
+
+	- Are there things you could find on this (old version) of the graph that are easier to find / understand / interpret than on the earlier more compact graphs? 
+	No.
+
+	- Do you see an improvement from this to the more compact graphs ? 
+	Yes, the first collapsed version is way better and more useful.
+	
+	In general, once having answered the questions, SubjectA closed the window and was keen on the idea of never seeing it that way again. He didn't even look at it out of curiosity, other than scrolling to find the changes when I asked, and he went mostly until he found color.
+
+5: Overall and features:
+	- Do you think this visualisation is a clear representation of changes in a process ? 
+	Yes, it seems clear. SubjectA doesn't (yet) visualise how certain kind of changes would be visualized, but when he described a few scenarios and I pointed him towards them in the graphs, he seemed satified.
+
+	- Would you make any changes to make it clearer ? Wich ones ?
+	SubjectA proposed an interesting alternative to the visualisation, kind of an "exploded view", with the fused nodes as is, and both versions of graphs shown in parallel; the V1 would then be full and only have red (removed) and orange, while the V2 would only have green (added) and orange. Those parallels graphs could then fuse again if needed etc. We discussed a bit of how it would look, the fact that it would be more nodes on screens. SubjectA himself is not sure if it would be clearer, but we concluded by saying it was a cool idea nonetheless. 
+
+	- Is there a feature that you would really want to add to the compact visualisation ?
+		- Content-wise 
+		- Regarding the visual aspect
+		- Regarding the dynamics of the visualisation
+		- Regarding how to interact with the visualisation
+	No idea for features add in the "general context", it feels complete to him.
+
+Questions regarding the visualisation in the context of performing a redelivery
+6. Observed patterns, continued
+	- Do the patterns you see make sense with your "migration expertise" ?
+	As described earlier, it does make sense and SubjectA was able to link most of what he saw to his migration expertise.
+
+	- Did you expect some patterns that are not present here ?
+	SubjectA did not miss anything in particular.
+
+7. Informations, continued
+	- Other than the patterns, do you find the information given by the graph useful in your work ?
+	Yes, see below.
+
+	- Could you get the same information without the visualisation ? If so, would it be difficult ? Describe how you would go about it.
+	It would be possible, of course, but that would require the creation of a script (which is a lot of work) and he feels like it wouldn't give as detailed of an information: they would be able to identify where things started to differ, but not how precisely they differ.
+
+	- Does the visualisation show information that you wouldn't have thought about getting ?
+	It's not that they never thought about getting it, it's that they never do because their tool is not meant for that, and therefore they use other kinds of informations to provide answers to clients.
+
+	- Could the information from the visualisation (patterns included) be useful in your work in regards to:
+		- Understanding (would it make understanding what changed easier) ?
+		- Efficency (would make some of the steps faster/easier) ?
+		Both understanding and efficiency are linked in SubjectA's answer: "It will allow us to locate the differences in the process easier, so it would both make the understanding easier, and faster". I noted that SubjectA used future tense, as in "I intend to use this", which I think is pretty cool.
+		- Communication (would make communication to the client easier) ?
+		As far as communication, SubjectA wouldn't show the graphs themselves at the client, because he thinks its too migration-focused (for him, the migration is mostly a black box). But he would probably change his communication at least slightly, because he would like to have a more methodic or "professionnal" way of performing his analysis. He is deeply aware that the "good enough", and the very subjective way analysis is done currently is an issue when communicating. He feels like the ability of saying he used a tool and the tool said XYZ would make the communication smoother.
+		- Other ?
+		No other application he sees. We talked about using the tool in a debugging context, but he isn't convinced it would be useful in that regard.
+
+8. Features, continued
+	- Regarding your redelivery work specifically, is there a feature that you would really want to add to the compact visualisation ?
+		- Content-wise 
+		When discussing about the granularity of the information and the big intimidating GOTO clusters, SubjectA said that it might also be interesting to see these graphs for the higher "rule layer" might be interesting as well: he thinks that maybe removing some of the more subtle differences of why a patch and not another might help highlight the overall more structural differences that happened during a migration. He would be curious to, at least, be able to compare to give a more informed opinion.
+
+		A second want that appeared would be to have, each time that we go out of a fused node, a reference to where in the code we are and/or at which step(s) of the migration we are. That way, if an engineer ever wants to match changes in graphs to changes in the code, he could simply look at the paragraph name in the final output (they never remove the paragraphs names in the migration process) and if more details are needed, he could generate the corresponding step of the migration and look there. This would not be entirely trivial to do, but is definitely doable since we do have that information in the input database.
+
+		- Regarding the visual aspect
+		- Regarding the dynamics of the visualisation
+		- Regarding how to interact with the visualisation
+	More generally, he wondered if the differences we highlight in our graphs are correleted to the ones that can be found by applying diff to the outputs, at least in term of size (is there at least a correlation, with small graphs having smaller diffs ?). We then discussed our outiler, the graph with only one fused node. It was obvious to Boris that it meant the migration was exactly the same, and he guessed correctly that it was probably because the inputs were also the same. We then both wondered if we could find two different inputs that would still give the exact same migration and outputs. SubjectA thinks it is possible in theory, but highly unlikely. The most probable code would be that only dead code inside the program is modified in between the version (the migration removes dead code, so it would be the exact same if no other changes happened).
+
+	- Are there changes you would make to what is currently there ? Why ?
+	No changes to what is currently here were proposed.
+
+	- Would adding the features you thought about change your answers to the question about this visualisation making your work more efficient, the communication or the understanding easier ? If so, how ?
+	The reference to the code would probably male things even more efficent than currently, yes. 
+
+	- Could this visualisation be useful in another context than the one of a redelivery ? How ?
+	SubjectA tought about another way to use this in the context of a migration project. In the very first phase, when a client is choosing which rule to activate or not, since this is tried on a very small (~30) subset of programs, he thinks he would be interesting to be able to explain to him more concretely how the migration evolves when adding/removing a rule. Maybe removing a rule doesn't change much, or in the contrary deactivates some other rules that we do want to get triggered. He thinks with such a small subset of programs, a full manual analysis of the graphs would be possible and it would be really cool to be able to have that tool and provide a more concrete analysis.
+
+
+6 To finish off:
+	- What do you like/dislike about this visualisation ? Both in the context of a redelivery or in general.
+	He likes the fact that it's very visual, you don't have to look at individual files, and the output is more managable (apparently, SubjectA is growing tired of the cycle of manually opening, looking if analysis is even possible, etc). The colors are also nice and intuitive.
+	He likes less the names of the different nodes, because they are fairly long and get cluttered. He does realise that it's a Raincode-specific things, and he doesn't see a better way to display it. It would be possible to have the rule names on mouse over only, but then it would hinder the analysis and it would, in his opinion, be worse.
+
+	- Anything else you'd like to add ?
+	No.
