@@ -7,15 +7,15 @@ Questions regarding the visualisation itself:
 	- What does the thickness of the arrow mean ?
 	- What are the grey circles ?
 SubjectB found right away that the nodes were draggable. Overall, he looked around and "tried out" the interface a bit more, clicking on the "help" button, and then the three layout buttons. He liked the force-based layout more than the trees, because he found it easier to read.
-He "prepared" for the interview a bit more than Yannick, or maybe it was because I presented him an earlier version of the tool, but anyway he had no trouble understanding what was on screen. Just the question that we were indeed at the "patch" (and not rule) level, and he was able to understand everything.
+He "prepared" for the interview a bit more than SubjectA, or maybe it was because I presented him an earlier version of the tool, but anyway he had no trouble understanding what was on screen. Just the question that we were indeed at the "patch" (and not rule) level, and he was able to understand everything.
 SubjectB is familiar with the concept of a state machine, which is close to our FSAs. He therefore had an easier time with that as well. However, he seemed a bit confused at first about the possitility of repeated nodes: again, I had to explain it to him before he fully understood.
 
-Just as Yannick did, he went right to "explaining mode", circling groups of nodes and explaining to me why they are there and what happened. Interestingly, his explanation were more technical-oriented: he explained the consequences of our "cluster pattern" to be because they have around 20 rules manipulating GOTOs and that one might trigger before the other for one reason. To summarize, Yannick saw the changes in terms of "what changes in the client code caused these modifications" while SubjectB saw them as "Why could a patch be triggered before, after, or not at all", being less focused on the client code.
+Just as SubjectA did, he went right to "explaining mode", circling groups of nodes and explaining to me why they are there and what happened. Interestingly, his explanation were more technical-oriented: he explained the consequences of our "cluster pattern" to be because they have around 20 rules manipulating GOTOs and that one might trigger before the other for one reason. To summarize, SubjectA saw the changes in terms of "what changes in the client code caused these modifications" while SubjectB saw them as "Why could a patch be triggered before, after, or not at all", being less focused on the client code.
 
 2. Observed patterns:
 	- Do you see patterns or outliers in the graphs ? If so, point them out.
 	- Can you find a meaning for at least one of the pattern ? Explain it.
-	Again, when asked about "structures" rather than patterns, SubjectB goes directly to "I would need more time with the tool", which is fair in my opinion. When I give a bit of explanation of what is a "structure", he goes directly to the long loops with added/removed nodes, and gives an interpretation close to the one of Yannick, talking about dead code. The big "cluster pattern" seems to be a bit less clear to him, since it is too complicated to be analyzed in his opinion.
+	Again, when asked about "structures" rather than patterns, SubjectB goes directly to "I would need more time with the tool", which is fair in my opinion. When I give a bit of explanation of what is a "structure", he goes directly to the long loops with added/removed nodes, and gives an interpretation close to the one of SubjectA, talking about dead code. The big "cluster pattern" seems to be a bit less clear to him, since it is too complicated to be analyzed in his opinion.
 
 3. Informations:
 	- Other than the patterns, do you find the information given by the graph interesting ? Does it seem correct to you ?
@@ -85,7 +85,7 @@ Questions regarding the visualisation in the context of performing a redelivery
 		SubjectB would like to highlight also a patch that is new "to a specific file" and not only to the entire migration (i.e. If patch E was in file 3 but not in file 6, and after the redelivery happens in file 6, he would like to see it at a glance via a new color for example).
 
 		- Regarding the visual aspect
-		As Yannick did, SubjectB has an issue with the length of the labels cluttering the graphs. He is less inclined to admit that it is "Raincode's fault", and would like at least to have the labels on multiple lines and/or to remove them completely and let them on mouse over only. When explained that it would maybe loose some of the "globality" of the view, he then went to think that Raincode could design shorter (yet still clear) labels specifically for this tool. We both agree that it would be the best option, but would require quite a bit of work and is not something to do now.
+		As SubjectA did, SubjectB has an issue with the length of the labels cluttering the graphs. He is less inclined to admit that it is "Raincode's fault", and would like at least to have the labels on multiple lines and/or to remove them completely and let them on mouse over only. When explained that it would maybe loose some of the "globality" of the view, he then went to think that Raincode could design shorter (yet still clear) labels specifically for this tool. We both agree that it would be the best option, but would require quite a bit of work and is not something to do now.
 
 		- Regarding the dynamics of the visualisation
 		- Regarding how to interact with the visualisation
@@ -98,7 +98,7 @@ Questions regarding the visualisation in the context of performing a redelivery
 
 	- Could this visualisation be useful in another context than the one of a redelivery ? How ?
 	SubjectB sees an alterative use case: when he is thinkering with the code of the migration, he sometimes create one new pattern, or modifies one. For testing he has sample code to migrate and looks at the output along with the logs to make sure his changes didn't break anything. He thinks using our tool in that context might be helpful to see what kind of effect a change on one pattern could have (if it made other patterns obsolete, if it implied lots of changes or not etc).
-	In summary, SubjectB thinks that what we did is cool, but in the context of a redelivery, he think there is too much unknown introduced by the changes in the client's code. He would much rather analyze graphs coming from a more "controlled" environement, as he described in this debuging context (he would also probably agree with Yannick's use case since the input code wouldn't change). 
+	In summary, SubjectB thinks that what we did is cool, but in the context of a redelivery, he think there is too much unknown introduced by the changes in the client's code. He would much rather analyze graphs coming from a more "controlled" environement, as he described in this debuging context (he would also probably agree with SubjectA's use case since the input code wouldn't change). 
 
 
 6 To finish off:
