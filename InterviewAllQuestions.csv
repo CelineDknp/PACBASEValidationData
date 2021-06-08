@@ -1,66 +1,64 @@
-,Questions about the meaning of a specific visual element (conceptual questions),Questions about the domain,Questions/ideas about future work
-,Questions about the use of the tool (practical questions),Actions taken to answer my questions,
+,Questions about the meaning of a specific visual element (conceptual questions),Questions about the domain,
+,Questions about the use of the tool (practical questions),Questions/ideas about future work,
 ,,,
 SubjectA,,,
 Video time,Question,Context,Action taken
-"5'30'',What is going on here?,""We are at the very beginning of the interview, SubjectA is getting situated in the tool for the first time"",- Spread out the different graph files that are open to see them all - Open one at random in full screen - Zoom at the beginning of the graph "
-"6'40"",What are the elements present here?,"""""""",""- Scroll in the graphs, identifying all the different elements (colors, shapes)"""
-"7'20"",""Answer the question """"what do you see?"""""",""Having had a few minutes to get situated, I ask the first question"",""- Scroll to a very dense part of the graph, explaining that it's messy"""
-"7'45"",""""""Trying to understand how this graph was generated"""" (direct quote)"","""""""",""-Starting back at the start of the graph, trying to read all the nodes - Realise he has not enough information as is"""
-"8'20"",What was in the cheat sheet again?,Prompted by me to look at it,""- Opens his email, the sheet and starts looking"""
-"8'30,""""""What does this tool take as input?"""""",After looking at the sheet for a few seconds,""- Looks for the answer for ~10 seconds then asks me directly. I inform him on the """"level"""" of the input (the patches from the database"""
-"9'30"",Did I understand this information correctly?,After looking at the sheet for som more time,- Explain by example what he understood so I can confirm it is correct"
-"10'20"",Can I now better understand the graphs?,"""""""",""- Goes back to the first graph, starts an explanation to confirm good understanding. - Keep exploring once confirmed"""
-"11'30,What happened in that long line of nodes?,Giving me his interpretation of the graphs,""- Drag and drop in the graph without changing the zoom level, reading the names of the nodes"""
-"12'14"",""""""Can you handle rules that are repeated in the migration process?"""""","""""""",""- Scrolling around for a few seconds, then giving up and asking me directly, probably because that's not an easy info to get as is"""
-"13'35"",How can I see better this specific part of the graph?,"""""""",""- Slides nodes around to rearrange them (unsuccesfully this time, because we were in a GOTO cluster)"""
-"14'00"",How do other graphs look?,"""""""",""- Minimize current window by double-clicking, then select another graph to maximize it"""
-"14'10"",What could be contained in that gray node?,"""""""",- Mouse over said node and sees all the rules"
-"14'30'',How could I analyze this new graph?,"""""""",""- Spread out the different nodes a bit, mousing over a few of their names (we are on the very simple graph, not much to see here"""
-"14'50"",How could I analyze this new graph?,"""""""",""- Stop to look at the graph as a whole first, then zoom to look at the different parts more in detail"""
-"15'05"",What was the meaning of orange again?,The orange color is on the links only,""- Open sheet sheet, find the orange bits and read the doc"""
-"15'20"",Could you clarify the explanation on the cheat sheet?,""The explanation talks about probabilities, which is not the most intuitive thing"",""- I explain the orange in the simpler terms of a transition """"happening more or lest often"""", and SubjectA seems to understand"""
-"15'40"",I need to read that node title better,"""""""",- Drags node just a bit above (happens a few times in a row as SubjectA is analyzing this last graph"
-"19'50"",""""""Did you compare those graphs with the diff output of both migrated version corresponding to the logs?"""""",,SubjectA thinks it might be interesting and insightfull to do so. I haven't done much of that beyond making sure that there are indeed differences when I detect them (and none when I detect none)"
+5'30'',What is going on here?,"We are at the very beginning of the interview, SubjectA is getting situated in the tool for the first time",- Spread out the different graph files that are open to see them all - Open one at random in full screen - Zoom at the beginning of the graph 
+"6'40""",What are the elements present here?,"""","- Scroll in the graphs, identifying all the different elements (colors, shapes)"
+"7'45""","""Trying to understand how this graph was generated"" (direct quote)","""","-Starting back at the start of the graph, trying to read all the nodes - Realise he has not enough information as is"
+"8'20""",What was in the cheat sheet again?,Prompted by me to look at it,"- Opens his email, the sheet and starts looking"
+8'30,"""What does this tool take as input?""",After looking at the sheet for a few seconds,"- Looks for the answer for ~10 seconds then asks me directly. I inform him on the ""level"" of the input (the patches from the database"
+"9'30""",Did I understand this information correctly?,After looking at the sheet for som more time,- Explain by example what he understood so I can confirm it is correct
+"10'20""",Can I now better understand the graphs?,"""","- Goes back to the first graph, starts an explanation to confirm good understanding. - Keep exploring once confirmed"
+11'30,What happened in that long line of nodes?,Giving me his interpretation of the graphs,"- Drag and drop in the graph without changing the zoom level, reading the names of the nodes"
+"12'14""","""Can you handle rules that are repeated in the migration process?""","""","- Scrolling around for a few seconds, then giving up and asking me directly, probably because that's not an easy info to get as is"
+"13'35""",How can I see better this specific part of the graph?,"""","- Slides nodes around to rearrange them (unsuccesfully this time, because we were in a GOTO cluster)"
+"14'00""",How do other graphs look?,"""","- Minimize current window by double-clicking, then select another graph to maximize it"
+"14'10""",What could be contained in that gray node?,"""",- Mouse over said node and sees all the rules
+14'30'',How could I analyze this new graph?,"""","- Spread out the different nodes a bit, mousing over a few of their names (we are on the very simple graph, not much to see here"
+"14'50""",How could I analyze this new graph?,"""","- Stop to look at the graph as a whole first, then zoom to look at the different parts more in detail"
+"15'05""",What was the meaning of orange again?,The orange color is on the links only,"- Open sheet sheet, find the orange bits and read the doc"
+"15'20""",Could you clarify the explanation on the cheat sheet?,"The explanation talks about probabilities, which is not the most intuitive thing","- I explain the orange in the simpler terms of a transition ""happening more or lest often"", and SubjectA seems to understand"
+"15'40""",I need to read that node title better,"""",- Drags node just a bit above (happens a few times in a row as SubjectA is analyzing this last graph
+"19'50""","""Did you compare those graphs with the diff output of both migrated version corresponding to the logs?""",,SubjectA thinks it might be interesting and insightfull to do so. I haven't done much of that beyond making sure that there are indeed differences when I detect them (and none when I detect none)
 [Big gap for discussing ideas about other features etc],,,
-",""""""Could you go more abstract?"""""",""SubjectA would like to see those graphs at a higher level (rules, not patches)"","
-",""""""Could you indicate where in the migration we are, when exiting a fused node?"""""",,"
-"15'20"",""""""How do I open a new graph"""""",I asked SubjectA to open the unfused graphs,""- Feeds the correct code, maximize the window"""
-"25'30"",I don't see anything ! What is going on here?,,""- Zoom, zoom and zoom. Find the color. Zoom some more ! Then scroll around"""
-"26'15"",Where is the information we had before?,Prompted by one of my questions,""- Drag some more until he sees color, then focus on that"""
-SubjectA is a bit unsure about the possibility of having rules appear mutiple times. He has trouble visualizing it, and therefore fears it might be confusing. I don't have an example to show him, so it's hard for me to reassure him,,,
-"[The end of the interview was only made of SubjectA answering my different questions. While he did fiddle with the graphs, he didn't seem to need any more ""new"" information and therefore probably didn't ask himself any more questions regarding the tool],,,"
-"What does SubjectA do when ""explaining his domain"" (happens multiple time during the process:,,,""- Points at one node, explain what the rule does in general, then follow one link to another node. Explain how they might interact, then go to the bigger picture of the entire structure we are looking at and give an interpretation for the changes depicted (client removed code, one rule gets triggered before another, causing  chain reaction, etc)"""
+,"""Could you go more abstract?""","SubjectA would like to see those graphs at a higher level (rules, not patches)",
+,"""Could you indicate where in the migration we are, when exiting a fused node?""",,
+"15'20""","""How do I open a new graph""",I asked SubjectA to open the unfused graphs,"- Feeds the correct code, maximize the window"
+"25'30""",I don't see anything ! What is going on here?,,"- Zoom, zoom and zoom. Find the color. Zoom some more ! Then scroll around"
+"26'15""",Where is the information we had before?,Prompted by one of my questions,"- Drag some more until he sees color, then focus on that"
+"SubjectA is a bit unsure about the possibility of having rules appear mutiple times. He has trouble visualizing it, and therefore fears it might be confusing. I don't have an example to show him, so it's hard for me to reassure him",,,
+"[The end of the interview was only made of SubjectA answering my different questions. While he did fiddle with the graphs, he didn't seem to need any more ""new"" information and therefore probably didn't ask himself any more questions regarding the tool]",,,
+"What does SubjectA do when ""explaining his domain"" (happens multiple time during the process:",,,"- Points at one node, explain what the rule does in general, then follow one link to another node. Explain how they might interact, then go to the bigger picture of the entire structure we are looking at and give an interpretation for the changes depicted (client removed code, one rule gets triggered before another, causing  chain reaction, etc)"
 ,,,
 SubjectB,,,
-"0'00"",""""""So this is from the database, at the patch level?"""""",""I consulted SubjectB previously, so he expects the input to be this way"",- I confirm that he is right"
-"0'10"",What is going on here?,""The files just opened, and SubjectB is getting situated"",""- Spread out the different graph files, look at the help menu"""
-"0'20"",How can I see better?,"""""""",""- Zoom on the graphs, first without maximizing the video"""
-"0'25"",How do I maximize this?,"""""""",""- Stuggles to find the maximize option (probably because it is backwards, Unix-style)"""
-"0'30"",""Okay, now what is written here?"","""""""",""- Zoom in the middle part of the graph (there is lots of color there), then drag nodes around right away"""
-"0'45"",How can I arrange this in a way that suits me better?,"""""""",- Drags nodes to try and arrange them in a more curved pattern"
-"1'10"",How do I navigate this?,"""""""",""- Identifie the bar at the bottom of the screen, grab it and drag until the beginning"""
-"1'20"",What does this do?,""SubjectB just noticed the layout button (horizontal, vertical, force)"",- Clicks and tries them out. End up prefering the force-based layout and sticking with it"
-"1'30"",How can I arrange this to read it better?,""Confronted with a """"GOTO cluster"""", SubjectB tries to make it more readable"",""- Drags nodes, but quickly gives up because of the complexity"""
-"2'30"",""""""This is a state machine, right?"""""",SubjectB wants to confirm with me that he understands what he sees,""- I tell him, that yes, it is"""
-"2'40"",What does the mouse over do?,""SubjectB is currently explaining his interpretation of the graph, pointing as he explains"",- Put mouse over node and reads out the rule name from the popup rather than the label"
-"3'00"",""""""An arrow means this patch was executed, then that one?"""""",SubjectB is pointing at nodes and confirming what he sees,- I tell him that it is correct"
-SubjectB then goes on explaining me his interpretation of the graph, which is correct, so I confirm it.,,,
-"4'50"" + 6'20,What is in this fused node?,"""""""",- Put mouse over node and quickly look at all the names"
-"5'30"",""SubjectB explains that he expects to see the node """"Remove labels"""" since it is the most common one"",SubjectB is explaining his domain to me,""- I confirm that I saw it often, even if I don't know """"by heart"""" where it is on the graph we are looking at"""
-"5'45"",Can a node be repeated in the graph?,SubjectB paused because he didn't think so,""- I explain that yes, it can be, and go a bit over how an FSA works. SubjectB seems to dislike the idea of repeating nodes"""
-"7'00"",""""""Can you clarify the meaning of the orange and the gray nodes?"""""",,""- I explain the bit about rules happening more or less, and that the fused nodes means no changes."""
-"7'40"",How can I open a new graph?,""Prompted by me, SubjectB is looking at the other example graphs"",""- Minimize easily the first window, then clicks on the maximize for the other graph (less struggling here, still not very natural)"""
-"7'45"",How can I make this go away?,""We had a small bug where, even if the window did maximize, another one stayed """"on top"""" of it, obstructing the view"",""- Shakes the window around in disbelief, then clicks the minimize button, making it really go away"""
-"7'55"",What is going on in this new graph?,Going back to analyzing,- Drags a few nodes and mouse over a few other while reflecting"
-"9'00"",""""""Could you show new rules?"""" (i.e. the new application of rules)"",""SubjectB would like new rules highlighted, either new to the file or new to the entire process"",""- I explain that we have this for the entire process, but that I could do it for a single file as well"""
-"9'30"",How is a new rule (in the entire process) shown?,""After asking me this, I directed him to the graph showing one"",""- Looks at the graph a few seconds, searching for the yellow node then mouse over it"""
-"11'40"",""But then, what are the green nodes?"",""A bit confused after all this discussion about new nodes to a file or to the entire process, SubjectB needs a bit of re-clarifying"",- I explain the green nodes and what it means"
-"[Again, quite a big gap for discussing ideas and aswering questions. As SubjectA, SubjectB ""fiddles"" with the grah while we talk, but not to answer any questions I think],,,"
-"19'30"",""""""How do I open a new graph"""""",I asked SubjectA to open the unfused graphs,""- Feeds the correct code, maximize the window"""
-"19'40"",What is this? I can't see,SubjectB just open the unfused graph,""- Maximize window (navigating now looks and feels more natural, click his favorite """"fused"""" layout"""
-"20'00"",How can I arrange this better?,"""""""",""- After zooming in a bit, moves node around to rearrange them"""
-"21'00"",Where are the informations I saw earlier?,Promped by one question,- SubjectB looks for the color in the graph and circle it with his mouse"
-"22'00"",How can I see what is in a fused node?,Promped by my explanation that this information is available,""- Clicks the node, then maximize the new window"""
-[Here as well, the end of the interview is SubjectB fiddeling with the graphs, more to occupy his hand I believe],,,
-When explaining his interpretation of a group of nodes, SubjectB has a similar approch as SubjectA: pointing at nodes and cicling groupes with his mouse, while he explains rules and their interaction. However, he goes directly to explaining why the migration changes (this rule got skipped, this rule triggered earlier), focusing much more on the process itself rather than on what the client did,,,
+"0'00""","""So this is from the database, at the patch level?""","I consulted SubjectB previously, so he expects the input to be this way",- I confirm that he is right
+"0'10""",What is going on here?,"The files just opened, and SubjectB is getting situated","- Spread out the different graph files, look at the help menu"
+"0'20""",How can I see better?,"""","- Zoom on the graphs, first without maximizing the video"
+"0'25""",How do I maximize this?,"""","- Stuggles to find the maximize option (probably because it is backwards, Unix-style)"
+"0'30""","Okay, now what is written here?","""","- Zoom in the middle part of the graph (there is lots of color there), then drag nodes around right away"
+"0'45""",How can I arrange this in a way that suits me better?,"""",- Drags nodes to try and arrange them in a more curved pattern
+"1'10""",How do I navigate this?,"""","- Identifie the bar at the bottom of the screen, grab it and drag until the beginning"
+"1'20""",What does this do?,"SubjectB just noticed the layout button (horizontal, vertical, force)",- Clicks and tries them out. End up prefering the force-based layout and sticking with it
+"1'30""",How can I arrange this to read it better?,"Confronted with a ""GOTO cluster"", SubjectB tries to make it more readable","- Drags nodes, but quickly gives up because of the complexity"
+"2'30""","""This is a state machine, right?""",SubjectB wants to confirm with me that he understands what he sees,"- I tell him, that yes, it is"
+"2'40""",What does the mouse over do?,"SubjectB is currently explaining his interpretation of the graph, pointing as he explains",- Put mouse over node and reads out the rule name from the popup rather than the label
+"3'00""","""An arrow means this patch was executed, then that one?""",SubjectB is pointing at nodes and confirming what he sees,- I tell him that it is correct
+"4'50"" + 6'20",What is in this fused node?,"""",- Put mouse over node and quickly look at all the names
+"5'30""","SubjectB explains that he expects to see the node ""Remove labels"" since it is the most common one",SubjectB is explaining his domain to me,"- I confirm that I saw it often, even if I don't know ""by heart"" where it is on the graph we are looking at"
+"5'45""",Can a node be repeated in the graph?,SubjectB paused because he didn't think so,"- I explain that yes, it can be, and go a bit over how an FSA works. SubjectB seems to dislike the idea of repeating nodes"
+"7'00""","""Can you clarify the meaning of the orange and the gray nodes?""",,"- I explain the bit about rules happening more or less, and that the fused nodes means no changes."
+"7'40""",How can I open a new graph?,"Prompted by me, SubjectB is looking at the other example graphs","- Minimize easily the first window, then clicks on the maximize for the other graph (less struggling here, still not very natural)"
+"7'45""",How can I make this go away?,"We had a small bug where, even if the window did maximize, another one stayed ""on top"" of it, obstructing the view","- Shakes the window around in disbelief, then clicks the minimize button, making it really go away"
+"7'55""",What is going on in this new graph?,Going back to analyzing,- Drags a few nodes and mouse over a few other while reflecting
+"9'00""","""Could you show new rules?"" (i.e. the new application of rules)","SubjectB would like new rules highlighted, either new to the file or new to the entire process","- I explain that we have this for the entire process, but that I could do it for a single file as well"
+"9'30""",How is a new rule (in the entire process) shown?,"After asking me this, I directed him to the graph showing one","- Looks at the graph a few seconds, searching for the yellow node then mouse over it"
+"11'40""","But then, what are the green nodes?","A bit confused after all this discussion about new nodes to a file or to the entire process, SubjectB needs a bit of re-clarifying",- I explain the green nodes and what it means
+"[Again, quite a big gap for discussing ideas and aswering questions. As SubjectA, SubjectB ""fiddles"" with the grah while we talk, but not to answer any questions I think]",,,
+"19'30""","""How do I open a new graph""",I asked SubjectA to open the unfused graphs,"- Feeds the correct code, maximize the window"
+"19'40""",What is this? I can't see,SubjectB just open the unfused graph,"- Maximize window (navigating now looks and feels more natural, click his favorite ""fused"" layout"
+"20'00""",How can I arrange this better?,"""","- After zooming in a bit, moves node around to rearrange them"
+"21'00""",Where are the informations I saw earlier?,Promped by one question,- SubjectB looks for the color in the graph and circle it with his mouse
+"22'00""",How can I see what is in a fused node?,Promped by my explanation that this information is available,"- Clicks the node, then maximize the new window"
+"[Here as well, the end of the interview is SubjectB fiddeling with the graphs, more to occupy his hand I believe]",,,
+"When explaining his interpretation of a group of nodes, SubjectB has a similar approch as SubjectA: pointing at nodes and cicling groupes with his mouse, while he explains rules and their interaction. However, he goes directly to explaining why the migration changes (this rule got skipped, this rule triggered earlier), focusing much more on the process itself rather than on what the client did",,,
